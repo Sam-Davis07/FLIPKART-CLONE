@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 12px 28px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.search-bar{
+    background-color: rgb(242, 248, 255);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    border: none;
+    font-size: 1.25rem;
+    width: 520px;
+    background-color: transparent;
+    margin-left: 10px;
+    height: 40px;
+}
+.fa-solid{
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+}
+
+/* Login Part */
+
+.login{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    height: 40px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.user{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.text{
+    height: 24px;
+    width: 42px;
+}
+
+.arrow{
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* Cart */
+
+.cart-image{
+    margin-right: 8px;
+}
+
+/* seller */
+
+.seller-image{
+    margin-right: 8px;
+}
+
+.seller-text{
+    font-weight: lighter;
+}
+
+/* MAIN */
+
+main{
+    background-color: rgb(234, 234, 234);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    border-top: 10px solid rgb(234, 234, 234);
+    border-bottom: 12px solid rgb(234, 234, 234);
+    height: 130px;
+    width: 96.5%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 93px;
+    width: 92px;
+}
+
+.inner-box:hover{
+    cursor: pointer;
+}
+
+.box-image{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+}
+
+.box-text{
+    font-size: .85rem;
+    width: 92px;
+    font-weight: 550;
+}
+
+.slider{
+    border-top: 10px solid rgb(234, 234, 234);
+    border-bottom: 12px solid rgb(234, 234, 234);
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+    display: flex;
+    height: 250px;
+}
+
+.pages{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.pages p{
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.pages a{
+    margin-bottom: 5px;
+}
